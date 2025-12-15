@@ -29,8 +29,7 @@
  * @see https://langchain-ai.github.io/langgraph/ for LangGraph documentation
  */
 
-import { createAgent } from 'langchain';
-import { tool } from '@langchain/core/tools';
+import { createAgent, tool } from 'langchain';
 import { z } from 'zod';
 
 // Define a simple weather tool
